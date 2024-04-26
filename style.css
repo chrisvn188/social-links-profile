@@ -50,7 +50,6 @@ main {
   place-content: center;
   background-color: var(--neutral-off-black);
   padding: 1.5rem;
-  position: relative;
 }
 
 /* utility class */
@@ -62,22 +61,6 @@ main {
   white-space: nowrap;
   width: 1px;
   height: 1px;
-}
-
-.attribution {
-  color: var(--neutral-white);
-  position: absolute;
-  bottom: 1rem;
-  width: 100%;
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.874rem;
-  font-weight: 300;
-
-  & > a {
-    color: var(--primary-green);
-    text-decoration: underline;
-  }
 }
 
 .social-profile {
