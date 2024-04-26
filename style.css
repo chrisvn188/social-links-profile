@@ -9,10 +9,10 @@
   --neutral-grey: hsl(0, 0%, 20%);
   --neutral-dark-grey: hsl(0, 0%, 12%);
   --neutral-off-black: hsl(0, 0%, 8%);
-  --dark-shadow: 1px 1px 2px hsl(0, 0%, 10%), 2px 2px 4px hsl(0, 0%, 10%),
-    4px 4px 8px hsl(0, 0%, 10%);
+  --dark-shadow: 1px 1px 2px hsl(0, 0%, 10%), 2px 4px 4px hsl(0, 0%, 10%),
+    4px 6px 8px hsl(0, 0%, 10%);
   --darker-shadow: 1px 1px 2px hsl(0, 0%, 10%), 2px 2px 3px hsl(0, 0%, 6%),
-    4px 4px 4px hsl(0, 0%, 8%);
+    4px 4px 10px hsl(0, 0%, 8%);
 }
 
 /* basic resets */
