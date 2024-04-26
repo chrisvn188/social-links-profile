@@ -93,22 +93,25 @@ main {
   }
 }
 
-.social-profile hgroup {
-  margin-bottom: 1.5rem;
-}
-
 .social-profile address {
   color: var(--primary-green);
   font-style: normal;
   font-weight: 600;
 }
 
-.social-profile h2 {
+.social-profile__text > h2 {
   color: var(--neutral-white);
   font-weight: 600;
+  margin-bottom: 0.25rem;
 }
 
-.social-profile hgroup + p {
+.social-profile__text > span {
+  display: block;
+  color: var(--primary-green);
+  margin-bottom: 1.2rem;
+}
+
+.social-profile__text > span + p {
   color: var(--neutral-white);
   font-weight: 300;
 }
